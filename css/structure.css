@@ -163,6 +163,31 @@ body.menu-open {
   text-transform: uppercase;
 }
 
+.structure-wrapper {
+  padding-left: 25px;
+}
+
+.structure-wrapper .text-title {
+  padding-bottom: 15px;
+}
+
+.structure-item {
+  padding-bottom: 15px;
+}
+
+.structure-wrapper .text-subtitle {
+  padding-left: 25px;
+}
+
+.structure-link {
+  color: var(--secondary-background-color);
+}
+
+.structure-link:hover,
+.structure-link:focus {
+  color: var(--active-color);
+}
+
 /* @import "../base/container";
 @import "../base/common"; */
 header {
@@ -739,4 +764,4 @@ header {
   font-weight: 700;
   color: #808080;
 }
-/*# sourceMappingURL=main-page.css.map */
+/*# sourceMappingURL=structure.css.map */

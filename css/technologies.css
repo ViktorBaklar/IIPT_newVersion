@@ -163,6 +163,43 @@ body.menu-open {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+  .technologies-list {
+    padding: 0 25px;
+  }
+}
+
+.technologies-link {
+  color: #2196f3;
+}
+
+.technologies-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.technologies-link:hover,
+.technologies-link:focus {
+  color: #0067c8;
+}
+
+.technologies p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.technologies .text {
+  text-align: center;
+  padding: 15px 0;
+}
+
+@media screen and (min-wigth: 768px) {
+  .technologies .text {
+    padding: 10px 80px;
+  }
+}
+
 /* @import "../base/container";
 @import "../base/common"; */
 header {
@@ -739,4 +776,4 @@ header {
   font-weight: 700;
   color: #808080;
 }
-/*# sourceMappingURL=main-page.css.map */
+/*# sourceMappingURL=technologies.css.map */
